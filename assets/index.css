@@ -1,0 +1,51 @@
+#header .navbar-brand img {
+  height: 25px;
+}
+
+#hero .carousel-inner img {
+  max-height: 60vh;
+  object-fit: cover;
+  filter: grayscale(60%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay {
+  height: 100%;
+}
+
+#speakers .row p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer {
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+#footer .row .col-md a {
+  color: white;
+  text-decoration: none;
+}
+
+#carousel .overlay .container .btn-platzi {
+  background-color: #97c93e;
+  color: white;
+}
+
+#carousel .overlay .container .btn-platzi:hover {
+  background-color: #82ad36;
+}
