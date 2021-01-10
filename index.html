@@ -46,8 +46,8 @@
         </div>
     </nav>
   </header>
-  <main id="hero">
-    <section id="carousel" class="mb-3">
+  <main id="main">
+    <section id="carousel">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -81,8 +81,8 @@
     </section>
     <section id="speakers">
       <div class="container">
-        <div class="row text-center">
-          <p>Conoce a los</p>
+        <div class="row text-upercase text-center py-2">
+          <small>Conoce a los</small>
           <h1>Oradores</h1>
         </div>
         <div class="row">
@@ -90,6 +90,14 @@
             <div class="card mb-4">
               <img src="./assets/speakers/sacha.jpg" class="card-img-top" alt="...">
               <div class="card-body">
+                <div class="card-badges me-2 mb-1">
+                  <span class="badge bg-warning">
+                    Javascript
+                  </span>
+                  <span class="badge bg-info">
+                    CSS
+                  </span>
+                </div>
                 <h5 class="card-title">Shacha</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the
@@ -102,9 +110,17 @@
             </div>
           </div>
           <div class="col-xl-4 col-sm-12 col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4 ">
               <img src="./assets/speakers/freddy.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
+                <div class="card-badges me-2 mb-1">
+                  <span class="badge bg-warning">
+                    Javascript
+                  </span>
+                  <span class="badge bg-info">
+                    CSS
+                  </span>
+                </div>
                 <h5 class="card-title">Shacha</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the
@@ -117,9 +133,17 @@
             </div>
           </div>
           <div class="col-xl-4 col-sm-12 col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4 ">
               <img src="./assets/speakers/cvander.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
+                <div class="card-badges me-2 mb-1">
+                  <span class="badge bg-warning">
+                    Javascript
+                  </span>
+                  <span class="badge bg-info">
+                    CSS
+                  </span>
+                </div>
                 <h5 class="card-title">Shacha</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the
@@ -132,9 +156,17 @@
             </div>
           </div>
           <div class="col-xl-4 col-sm-12 col-md-6">
-            <div class="card mb-4">
+            <div class="card mb-4 ">
               <img src="./assets/speakers/leonidas2.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
+                <div class="card-badges me-2 mb-1">
+                  <span class="badge bg-warning">
+                    Javascript
+                  </span>
+                  <span class="badge bg-info">
+                    CSS
+                  </span>
+                </div>
                 <h5 class="card-title">Shacha</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the
@@ -148,6 +180,63 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="place">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 px-0">
+            <img src="./assets/images/honolulu.jpg" alt="Foto de Honolulu">
+          </div>
+          <div class="col-12 col-lg-6 col p-4">
+            <h1>Honolulu Octubre 2025</h1>
+            <p>
+              Honolulu o Honolulú es la capital y localidad más grande del estado de Hawái, en los Estados Unidos.
+              Honolulu es la más
+              sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
+              urbana en la
+              costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado
+              consolidada que
+              cubre toda la isla (aproximadamente 600 km² de superficie)
+            </p>
+            <a href="#" class="btn btn-outline-light">Conocer mas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="add-speaker">
+      <div class="row text-upercase text-center py-2">
+        <small>Combiértete en un</small>
+        <h1>Oradores</h1>
+        <p>
+          Anótate como orador para darnos una charla ignite.
+          Cuéntanos de qué quieres hablar!
+        </p>
+      </div>
+      <dv class="row">
+        <div class="col">
+          <form>
+            <div class="row g-3 mb-3">
+              <div class="col-10 offset-1 col-md-4 offset-md-2">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col-10 offset-1 offset-md-0 col-md-4">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col col-10 offset-1 col-md-8 offset-md-2">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <small class=".form-text text-muted">Recuerda incluir un titulo para tu charla.</small>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-10 offset-1 col-md-8 offset-md-2">
+                <button class="btn btn-platzi w-100">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </dv>
     </section>
   </main>
   <footer id="footer">
